@@ -42,9 +42,6 @@ cc_library_shared {
         "libcutils",
         "libutils",
     ],
-    header_libs: [
-        "device_kernel_headers",
-    ],
 }
 
 cc_binary {
